@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrar | Schwartz Dev's</title>
+<meta name="description" content="Entre na sua conta">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav"><div class="nav-in">
+<a class="logo" href="index.html">Schwartz<span> Dev's</span></a>
+<div class="links" id="links"><a href="index.html">Início</a><a href="Sobre.html">Sobre mim</a><a href="Portfólio.html">Projetos</a><a href="Contato.html">Contato</a><a class="entrar" href="Login.html" aria-current="page">Entrar</a></div>
+<button class="icon-btn" id="tema" aria-label="Alternar tema claro/escuro"></button>
+<button class="icon-btn burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</div></nav>
+<main class="center-page">
+<div class="form-card">
+<h1>Bem-vindo de volta</h1>
+<p class="sub">Entre para acessar a área de visitantes.</p>
+<form data-msg="Login apenas ilustrativo: a área restrita ainda não existe 🙂">
+<div class="field"><label for="u">Usuário</label><input id="u" type="text" placeholder="Seu usuário" minlength="5" maxlength="50" required></div>
+<div class="field"><label for="s">Senha</label><input id="s" type="password" placeholder="Sua senha" minlength="5" maxlength="50" required><button type="button" class="eye" aria-label="Mostrar senha">👁️</button></div>
+<button class="btn" type="submit">Entrar</button>
+</form>
+<p class="alt">Ainda não tem conta? <a href="Cadastrar.html">Cadastre-se</a></p>
+</div>
+</main>
+<footer>© 2026 André Luis Pires da Silva · Feito com HTML, CSS e JavaScript</footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>

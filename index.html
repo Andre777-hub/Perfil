@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Início | Schwartz Dev's</title>
+<meta name="description" content="Portfólio de André Luis Pires da Silva">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav"><div class="nav-in">
+<a class="logo" href="index.html">Schwartz<span> Dev's</span></a>
+<div class="links" id="links"><a href="index.html" aria-current="page">Início</a><a href="Sobre.html">Sobre mim</a><a href="Portfólio.html">Projetos</a><a href="Contato.html">Contato</a><a class="entrar" href="Login.html">Entrar</a></div>
+<button class="icon-btn" id="tema" aria-label="Alternar tema claro/escuro"></button>
+<button class="icon-btn burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</div></nav>
+<main>
+<section class="hero">
+<div>
+<h1>Oi, eu sou o André.</h1>
+<p class="lead">Sou <span class="type" id="digitando"></span><span class="cursor"></span></p>
+<p class="lead">Aqui você conhece meu perfil, vê os projetos que já criei e pode falar comigo.</p>
+<div class="row"><a class="btn" href="Portfólio.html">Ver projetos</a><a class="btn ghost" href="Sobre.html">Quem sou eu</a></div>
+</div>
+<div class="photo"><img src="imagem/foto.png" alt="Foto de André Luis"></div>
+</section>
+<section style="margin-top:70px">
+<h2 class="title reveal">Por onde começar</h2>
+<p class="sub reveal">Escolha um caminho. Para ter uma conta no site, use o botão Entrar.</p>
+<div class="grid">
+<a class="card reveal" href="Sobre.html" style="text-decoration:none"><div class="emoji">👋</div><h3>Sobre mim</h3><p>Minha história, o que estudo e o que quero ser.</p></a>
+<a class="card reveal" href="Portfólio.html" style="text-decoration:none"><div class="emoji">🚀</div><h3>Projetos</h3><p>Calculadora, formulário e urna eletrônica funcionando.</p></a>
+<a class="card reveal" href="Contato.html" style="text-decoration:none"><div class="emoji">💬</div><h3>Contato</h3><p>Deixe um recado ou uma ideia de projeto.</p></a>
+<a class="card reveal" href="Login.html" style="text-decoration:none"><div class="emoji">🔐</div><h3>Entrar</h3><p>Faça login ou crie uma conta de visitante.</p></a>
+</div></section>
+</main>
+<footer>© 2026 André Luis Pires da Silva · Feito com HTML, CSS e JavaScript</footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
